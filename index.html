@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tala Ammoun // Web Developer</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<!-- main logo / nav -->
+<header style="font-family:'Times New Roman', Times, serif">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Tala Ammoun</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#about">About me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="CV_Tala Ammoun.docx">Resume</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Work
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#Gunbam">Gunbam</a>
+                <a class="dropdown-item" href="#Surf-Report">Surf Report</a>
+                <a class="dropdown-item" href="#calculator">Calculator</a>
+                <a class="dropdown-item" href="#run-buddy">Run Buddy</a>
+                <a class="dropdown-item" href="#led-wall">LED Wall</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  </header>
+
+<body>
+  <!-- hero banner -->
+  <div class="jumbotron jumbotron-fluid" alt="black and white picture of self">
+    <div class="container">
+      <h1 class="display-4">Tala Ammoun</h1>
+    </div>
+  </div>
+
+  <main>
+    <!-- about me -->
+    <div class="container-fluid content" id="about">
+      <h2 class="sectionHeading">About Me</h2>
+      <div class="row">
+        <p>I am learning to code in the hopes of setting up my own business. I have been learning the skill for about 4 months, and I keep learning new things everyday. </p>
+        <br>
+        <p>For more work experience, you can see my <a href="CV_Tala Ammoun.docx" style="color:black">resume</a>.</p>
+        <br>
+      </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="container-fluid content" id="skills">
+        <h2 class="sectionHeading">Skills</h2>
+        <div class="row">
+            <p class="col-12">I expect to learn the following skills during the bootcamp:</p>
+            <br><br>
+            <ul class="list-group">
+                <li class="list-group-item">Create an html file to display content to users</li>
+                <li class="list-group-item">Style the html file using CSS properties
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Margins</a>
+                          <a class="dropdown-item" href="#">Padding</a>
+                          <a class="dropdown-item" href="#">Flex</a>
+                          <a class="dropdown-item" href="#">Grid</a>
+                          <a class="dropdown-item" href="#">Bootstrap</a>
+                        </div>
+                      </div>
+                    </li>
+                <li class="list-group-item">Make the html file elements functional
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                        </button>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#">Buttons such as sign-up, search, and filter</a>
+                          <a class="dropdown-item" href="#">Toggle the input and button elements</a>
+                          <a class="dropdown-item" href="#">Upload files from the computer</a>
+                          <a class="dropdown-item" href="#">Accept payments</a>
+                        </div>
+                      </div>
+                    </li>
+                <li class="list-group-item">Build user interfaces using the React framework</li>
+                <li class="list-group-item">Learn about Node.js</li>
+                <li class="list-group-item">Create mobile apps</li>
+                <li class="list-group-item">Deploy a website</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- portfolio container -->
+    <div class="container-fluid content" id="work">
+        <h2 class="sectionHeading">Work</h2>
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="cardContainer col-lg-12 col-md-4 col-sm-12">
+            <div class="card">
+            <a href="https://tala-ammoun.github.io/Gunbam/" target=_blank><img src="images/Gunbam.jpg" class="card-img-top" alt="roasted chestnuts business" id="Gunbam"> </a>
+            <div class="card-body">
+              <h5 class="card-title">Gunbam</h5>
+              <p>HTML/CSS</p>
+            </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
+            <div class="card">
+            <a href=""><img src="images/02-portfolio-4.jpg" class="card-img-top" alt="Surf Report" id="Surf-Report"></a>
+            <div class="card-body">
+              <h5 class="card-title">Surf Report</h5>
+              <p>MERN Stack</p>
+            </div>
+            </div>
+          </div>
+          
+          <!-- Card 3 -->
+          <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
+            <div class="card">
+            <a href=""><img src="images/02-portfolio-2.jpg" class="card-img-top" alt="Calculator" id="calculator"></a>
+            <div class="card-body">
+              <h5 class="card-title">Calculator</h5>
+              <p>React/Javascript/CSS</p>
+            </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
+            <div class="card">
+            <a href=""><img src="images/02-run-buddy.jpg" class="card-img-top" alt="run buddy" id="run-buddy"></a>
+            <div class="card-body">
+              <h5 class="card-title">Run Buddy</h5>
+              <p>HTML/CSS</p>
+            </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="cardContainer col-lg-6 col-md-4 col-sm-12">
+            <div class="card">
+            <a href=""><img src="images/02-portfolio-1.jpg" class="card-img-top" alt="LED Wall" id="led-wall"></a>
+            <div class="card-body">
+              <h5 class="card-title">LED Wall</h5>
+              <p>Node/IoT</p>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div class="container-fluid content" id="contact">
+        <h2 class="sectionHeading">Contact Me</h2>
+        <div class="row">
+            <div class="logos">
+                <a href="https://www.linkedin.com/in/tala-ammoun-421152163/"><img src="images/LinkedIn_logo.png"  class="logo1" width="20%"></a>
+                <a href="https://github.com/Tala-Ammoun/Tala-Ammoun.git"><img src="images/GitHub-logo.png" class="logo2" width="20%"></a>
+            </div>
+        </div>
+    </div>
+
+  </main>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<footer align="center">
+	Copyright © 2022 Tala Ammoun - All Rights Reserved.
+</footer>
+
+</html>
